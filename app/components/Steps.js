@@ -6,10 +6,10 @@ const Steps = () => {
       {/* <!-- headings  --> */}
       <div className="flex flex-col justify-center items-center gap-3 md:gap-4 mb-12 md:mb-16 px-4 md:px-0">
         <span className="text-primary font-semibold text-base md:text-lg">
-          Start now
+          Start nå
         </span>
         <h1 className="text-3xl md:text-4xl font-bold text-center">
-          How it Works
+          Hvordan det fungerer
         </h1>
       </div>
 
@@ -34,11 +34,10 @@ const Steps = () => {
           </div>
 
           <h2 className="text-xl md:text-2xl font-bold">
-            Registration and Account
+            Oppdag ditt neste kjøretøy
           </h2>
           <p className="text-gray-600 text-sm md:text-base">
-            Search inventory of more than salvage used vehicles. Get started by
-            creating your account in just a few simple steps.
+            Utforsk vårt bredte utvalg av biler på auksjonen. Med alt fra brukte biler til salgsbiler, finner du garantert noe som passer dine behov og budsjett.
           </p>
         </div>
 
@@ -59,10 +58,9 @@ const Steps = () => {
               />
             </div>
           </div>
-          <h2 className="text-xl md:text-2xl font-bold">Browse and Bid</h2>
+          <h2 className="text-xl md:text-2xl font-bold">Legg inn ditt bud</h2>
           <p className="text-gray-600 text-sm md:text-base">
-            Explore our extensive collection of vehicles and place your bids on
-            the ones that interest you most.
+            Når du har funnet bilen du ønsker, er det enkelt å legge inn et bud. Vår plattform gjør det sikkert og oversiktlig å delta på auksjonen.
           </p>
         </div>
 
@@ -78,10 +76,9 @@ const Steps = () => {
               />
             </div>
           </div>
-          <h2 className="text-xl md:text-2xl font-bold">Win and Purchase</h2>
+          <h2 className="text-xl md:text-2xl font-bold">Bli den heldige vinneren</h2>
           <p className="text-gray-600 text-sm md:text-base">
-            Win the auction and complete your purchase with our secure and
-            straightforward process.
+            Vinn auksjonen og fullfør kjøpet ryddig og trygt. Vi sørger for at alt går smidig, slik at du kan glede deg til din nye bil.
           </p>
         </div>
       </div>

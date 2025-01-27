@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/vare-biler/page": "app/vare-biler/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/(forms)/gi-bud/page": "app/(forms)/gi-bud/page.js",
+  "/(forms)/selg-bil/page": "app/(forms)/selg-bil/page.js"
+}

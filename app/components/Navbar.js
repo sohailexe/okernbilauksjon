@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -70,10 +71,10 @@ const Navbar = () => {
                 Våre Biler
               </Link>
               <Link
-                href="/about"
+                href="/auction-terms"
                 className="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
               >
-                Om Oss
+                Auction Terms
               </Link>
               <Link
                 href="/contact"
@@ -86,13 +87,13 @@ const Navbar = () => {
               <div className="flex items-center space-x-4">
                 <Link
                   href="/gi-bud"
-                  className="px-8 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="px-8 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-md hover:shadow-lg border-2 border-primary"
                 >
                   Gi Bud
                 </Link>
                 <Link
                   href="/selg-bil"
-                  className="px-8 py-2.5 bg-transparent text-gray-900 font-semibold rounded-lg hover:bg-gray-900 hover:text-white transition-all duration-300 border-2 border-gray-900"
+                  className="px-8 py-2.5 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300 border-2 border-gray-900"
                 >
                   Selg Bil
                 </Link>
@@ -155,11 +156,11 @@ const Navbar = () => {
                     Våre Biler
                   </Link>
                   <Link
-                    href="/about"
+                    href="/auction-terms"
                     className="block py-2 text-gray-700 hover:text-primary transition-colors duration-200 font-medium"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Om Oss
+                    Auction Terms
                   </Link>
                   <Link
                     href="/contact"
@@ -174,14 +175,14 @@ const Navbar = () => {
                 <div className="space-y-3">
                   <Link
                     href="/gi-bud"
-                    className="block w-full px-6 py-3 bg-primary text-white text-center font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300"
+                    className="block w-full px-6 py-3 bg-primary text-white text-center font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-md hover:shadow-lg border-2 border-primary"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Gi Bud
                   </Link>
                   <Link
                     href="/selg-bil"
-                    className="block w-full px-6 py-3 bg-transparent text-gray-900 text-center font-semibold rounded-lg hover:bg-gray-900 hover:text-white transition-all duration-300 border-2 border-gray-900"
+                    className="block w-full px-6 py-3 bg-gray-900 text-white text-center font-semibold rounded-lg hover:bg-gray-800 transition-all duration-300 border-2 border-gray-900"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Selg Bil
