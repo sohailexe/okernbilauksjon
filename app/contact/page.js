@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 lg:py-16">
         <h1 className="text-3xl lg:text-[40px] leading-tight tracking-tight text-gray-900 mb-8 lg:mb-12">
-          Contact Information
+          Kontaktinformasjon
         </h1>
 
         <div className="lg:grid lg:grid-cols-2 lg:gap-12">
@@ -13,10 +13,10 @@ export default function Contact() {
           <div className="flex flex-col space-y-16">
             {/* Contact Information - First on mobile */}
             <div className="order-1 lg:order-1">
-              <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Contact Information</h2>
+              <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Kontaktinformasjon</h2>
               <div className="space-y-2">
                 <p className="text-[15px] leading-relaxed text-gray-600">
-                  Get in touch with us for any inquiries about our services.
+                  Ta kontakt med oss for spørsmål om våre tjenester.
                 </p>
               </div>
             </div>
@@ -25,7 +25,7 @@ export default function Contact() {
             <div className="grid grid-cols-2 gap-8 order-2 lg:order-3">
               {/* Visit Us */}
               <div>
-                <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Visit Us</h2>
+                <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Besøk oss</h2>
                 <div className="space-y-2">
                   <p className="text-[15px] leading-relaxed text-gray-600">
                     Folkvangveien 22<br />
@@ -36,10 +36,10 @@ export default function Contact() {
 
               {/* Get in Touch */}
               <div>
-                <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Get in Touch</h2>
+                <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Kontakt oss</h2>
                 <div className="space-y-6">
                   <div>
-                    <p className="text-[13px] text-gray-500 mb-2">Phone</p>
+                    <p className="text-[13px] text-gray-500 mb-2">Telefon</p>
                     <div className="space-y-2">
                       <p className="text-[15px] text-gray-600">
                         <a href="tel:22225656" className="hover:text-gray-900 transition-colors">
@@ -59,7 +59,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <div>
-                    <p className="text-[13px] text-gray-500 mb-2">Email</p>
+                    <p className="text-[13px] text-gray-500 mb-2">E-post</p>
                     <div className="space-y-2">
                       <p className="text-[15px] text-gray-600">
                         <a href="mailto:Tom@okernbilauksjon.no" className="hover:text-gray-900 transition-colors">
@@ -79,18 +79,18 @@ export default function Contact() {
 
             {/* Opening Hours - Last on mobile, second on desktop */}
             <div className="order-4 lg:order-2">
-              <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Opening Hours</h2>
+              <h2 className="text-xl lg:text-2xl tracking-tight text-gray-900 mb-4">Åpningstider</h2>
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[280px]">
                   <tbody>
                     {[
-                      { day: 'Monday', hours: '09:00–18:00' },
-                      { day: 'Tuesday', hours: '09:00–18:00' },
-                      { day: 'Wednesday', hours: '09:00–20:00' },
-                      { day: 'Thursday', hours: '09:00–18:00' },
-                      { day: 'Friday', hours: '09:00–17:00' },
-                      { day: 'Saturday', hours: 'Stengt', closed: true },
-                      { day: 'Sunday', hours: '15:00–18:00' }
+                      { day: 'Mandag', hours: '09:00–18:00' },
+                      { day: 'Tirsdag', hours: '09:00–18:00' },
+                      { day: 'Onsdag', hours: '09:00–20:00' },
+                      { day: 'Torsdag', hours: '09:00–18:00' },
+                      { day: 'Fredag', hours: '09:00–17:00' },
+                      { day: 'Lørdag', hours: 'Stengt', closed: true },
+                      { day: 'Søndag', hours: '15:00–18:00' }
                     ].map((schedule) => (
                       <tr key={schedule.day} className="border-b border-gray-100 last:border-0">
                         <td className="py-3 lg:py-4 text-[15px] font-normal text-gray-600">
