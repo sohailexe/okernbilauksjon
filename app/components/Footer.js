@@ -62,7 +62,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/auction-terms" className="text-gray-400 hover:text-primary transition-colors duration-200">
-                  Auction Terms
+                  Auksjonsvilkår
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-400 hover:text-primary transition-colors duration-200">
+                  Kontakt
                 </Link>
               </li>
             </ul>
@@ -91,7 +96,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Økern Bilauksjon AS. All rights reserved.
+            © {new Date().getFullYear()} Økern Bilauksjon AS. Alle rettigheter reservert.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className="bg-gray-50">
+    <section id="om-oss" className="bg-gray-50">
       <div className="div-cont">
         <div className="max-w-6xl mx-auto">
           {/* Main Content */}
