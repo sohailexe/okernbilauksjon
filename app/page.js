@@ -3,6 +3,7 @@ import LatestCars from "./components/LatestCars";
 import About from "./components/About";
 import Steps from "./components/Steps";
 import AboutUs from "./components/AboutUs";
+import Newslatter from "./components/Newslatter";
 
 export default function Home() {
   return (
@@ -10,8 +11,10 @@ export default function Home() {
       <Hero />
       <LatestCars />
       <About />
-      <AboutUs />
+      <AboutUs /> 
       <Steps />
+      <Newslatter/>
+      
     </>
   );
 }
